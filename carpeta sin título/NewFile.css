@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ADD8E6;
+}
+
+nav.center {
+	text-align: center;
+}
+
+h1.center {
+	text-align: center;
+	font-size: 50px;
+	color: blue;
+	font-weight: normal;
+}
+
+h1.center::first-letter {
+	font-size: 125px;
+	color: black;
+	font-weight: normal;
+}
+
+nav.center a:hover {
+	background-color: yellow;
+	color: red;
+}
+
+p.firstline::first-line {
+	color: red;
+}
+
+section.whitebg a:link{
+	background-color: white;
+}
+
+section.whitebg a:visited{
+	background-color: blue;
+}
+
+.floatright{
+	float: right;
+}
